@@ -1,0 +1,11 @@
+output/
+output
+bsub_logs/
+bsub_logs
+*.stdout
+*.stderr
+*.pyc
+.ipynb_checkpoints/
+logs_pretrain/
+.vscode
+.vscode/

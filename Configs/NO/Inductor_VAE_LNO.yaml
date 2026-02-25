@@ -1,0 +1,19 @@
+dataset: 'Inductor'
+model: 'LNO'
+data_path: 'your_data_path'
+vae_pth: ['your_vae_checkpoint_path']
+geom_types: ["EECore_new"]
+num_geom: [900]
+val_num_geom: [300]
+output_dir: "your_output_dir"
+log_dir: "your_log_dir"
+
+use_mesh: true
+use_VAE: true
+
+trunk_size: 4
+branch_sizes: [32]
+n_layer: 8
+n_hidden: 128
+n_head: 4
+num_queries: 2048

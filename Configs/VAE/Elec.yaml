@@ -1,0 +1,13 @@
+batch_size: 100
+dataset: 'Elec'
+data_path: 'your_data_path'
+geom_types: ["elec_0_3_0_7_0_2","elec_0_7_0_3_0_2"]
+num_geom: [3800,3800]
+val_num_geom: [200,200]
+output_dir: "your_output_dir"
+log_dir: "your_log_dir"
+dim: 256
+num_latents: 256
+latent_dim: 32
+depth: 6
+kl_weight: 0.001

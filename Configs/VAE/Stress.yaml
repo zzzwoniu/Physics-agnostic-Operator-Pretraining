@@ -1,0 +1,13 @@
+batch_size: 50
+dataset: 'Stress'
+data_path: 'your_data_path'
+geom_types: ["ellipse_0_3_0_15_0_5_0_5","ellipse_0_15_0_3_0_5_0_5","rect_0_3_0_15_0_5_0_5","rect_0_15_0_3_0_5_0_5"]
+num_geom: [1800,1800,1800,1800]
+val_num_geom: [100,100,100,100]
+output_dir: "your_output_dir"
+log_dir: "your_log_dir"
+dim: 256
+num_latents: 256
+latent_dim: 32
+depth: 6
+kl_weight: 0.001

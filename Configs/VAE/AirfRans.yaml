@@ -1,0 +1,13 @@
+batch_size: 50
+dataset: 'AirfRans'
+data_path: 'your_data_path'
+geom_types: ["4_5_digits","geom_only"]
+num_geom: [800,1600]
+val_num_geom: [200,400]
+output_dir: "your_output_dir"
+log_dir: "your_log_dir"
+dim: 256
+num_latents: 256
+latent_dim: 32
+depth: 6
+kl_weight: 0.001
