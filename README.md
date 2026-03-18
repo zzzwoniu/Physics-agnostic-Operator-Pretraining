@@ -14,6 +14,9 @@ Accepted to ICLR 2026!
 Paper link:
 [PHYSICS-AGNOSTIC PRETRAINING](https://openreview.net/forum?id=iCprPzyrRp)
 
+Dataset link:
+[zz-zhang-ucb/Physics-agnostic-pretraining](https://huggingface.co/datasets/zz-zhang-ucb/Physics-agnostic-pretraining)
+
 </div>
 
 ## Table of Contents
@@ -53,7 +56,7 @@ The visualization above illustrates the core methodology of our proposed physics
 ### Datasets:
 We provide four datasets: 2D Stress, 2D AirfRans, 3D Inductor, 2D Electrostatic. Each dataset contains the geometry point cloud, preprocessed occupancy field, and the PDE field from two different query methods. Please find more details in the manuscript.
 
-**Note:** Datasets will be released soon.
+**Link:** Download from Hugging Face: [zz-zhang-ucb/Physics-agnostic-pretraining](https://huggingface.co/datasets/zz-zhang-ucb/Physics-agnostic-pretraining).
 
 The table below shows a performance ($10^{-2}$) comparison of SoA neural operators with and without our physics-agnostic pretraining stage. In most cases, a clear performance gain can be observed from the pretraining, which requires no PDE solutions but richer geometry-only datasets.
 
